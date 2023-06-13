@@ -1,0 +1,19 @@
+header{
+    background-image: url(image/hwanghanju!3.png);
+    background-color: rgb(171, 171, 171);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+body{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+h1,h2,h3,h4{
+    font-family: 'Gowun Dodum', 'Black Han Sans', sans-serif;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #017105 !important;
+}

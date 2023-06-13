@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>노래 추천</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <body>
+
+     <!-- 네비게이션 영역 시작 -->
+     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
+  
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo3.png" alt="로고">
+                </a>
+  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html">홈</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile0.html">프로필</a></li>
+                    <li class="nav-item"><a class="nav-link" href="personality1.html">성격</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobby2.html">취미</a></li>
+                    <li class="nav-item"><a class="nav-link" href="plan3.html">미래 계획</a></li>
+                    <li class="nav-item"><a class="nav-link" href="preference4.html">취향</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lifetime5.html">생애</a></li>
+                    <li class="nav-item"><a class="nav-link" href="recent6.html">근황</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact7.html">연락</a></li>
+                    <li class="nav-item"><a class="nav-link" href="music8.html">노래 추천</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 네비게이션 영역 끝 -->
+
+    <section class="container py-5 py-5 text-white text-bg-success">
+
+        <div class="text-center py-5">
+            <h1 class=" text-warning fw-bold">노래 추천</h1>
+            <p class=" text-warning">황한주가 좋아하는 노래</p>
+        </div>
+    
+        <div class="row justify-content-center align-items-center mb-5">
+    
+            <div class="col-md-5">
+                <img src="image/music2.png" alt="그림" class="img-fluid">
+            </div>
+    
+            <div class="col-md-7 col-lg-5 px-lg-5">
+
+                <h3 class=" text-dark fw-bold mb-3">제가 정말 좋아하는 노래 5개 소개해드리겠습니다! 꼭 들어보세요!</h3>
+
+                <h3 class=" text-dark fw-bold mb-3">1. MISO - Take Me</h3>
+                <p class="lh-lg">노래를 한 곡만 한다면 이 노래를 추천할 정도로, 정말 좋아하는 노래입니다.
+                     정말 오래 들었는데 질리지 않습니다. 노래의 시작 부분이 정말 좋습니다. </p>
+               
+                <div class="col-lg-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning px-4" data-bs-toggle="modal"
+                        data-bs-target="#newsModal">Take Me MV 보기
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalTitle"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content ">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="newsModalTitle">music</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="닫기"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pxAiwZlzSD8" 
+                                        title="YouTube video player" frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                        allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 끝 -->
+                </div>
+<br>
+                <h3 class=" text-dark fw-bold mb-3">2. Debussy - Clair de Lune <br>(드뷔시 - 달빛)</h3>
+                <p class="lh-lg">중학교 수행평가를 하면서 알게되었는데, 마음에 들어서 지금까지 듣고있습니다. 
+                    잠이 안 올 때 들으면 좋은 노래입니다.</p>
+
+                    <div class="col-lg-3">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-warning px-2" data-bs-toggle="modal"
+                            data-bs-target="#newsModal1">피아노 연주 보기
+                        </button>
+    
+                        <!-- Modal -->
+                        <div class="modal fade" id="newsModal1" tabindex="-1" aria-labelledby="newsModalTitle"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content ">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="newsModalTitle">music</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="닫기"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="ratio ratio-16x9">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Fu5E0xcKQzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal 끝 -->
+                    </div>
+<br>
+                <h3 class=" text-dark fw-bold mb-3">3. Jeremy Zucker - comethru</h3>
+                <p class="lh-lg">산뜻한 노래를 듣고싶을 때 들어보세요! </p>
+
+                <div class="col-lg-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning px-2" data-bs-toggle="modal"
+                        data-bs-target="#newsModal2">comethru 가사영상 보기
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="newsModal2" tabindex="-1" aria-labelledby="newsModalTitle"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content ">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="newsModalTitle">music</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="닫기"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_PVZerMiIHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 끝 -->
+                </div>
+                <br>
+
+                <h3 class=" text-dark fw-bold mb-3"> 4. GLOWCEAN - ESSENCE</h3>
+                <p class="lh-lg">유튜브를 돌아다니다가 앨범 표지가 예뻐서 들어봤는데, 충격적으로 좋았습니다. 가사 없는 노래입니다. </p>
+
+                <div class="col-lg-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning px-2" data-bs-toggle="modal"
+                        data-bs-target="#newsModal3">표지와 음원 감상하기
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="newsModal3" tabindex="-1" aria-labelledby="newsModalTitle"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content ">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="newsModalTitle">music</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="닫기"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bX5-lNks_mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 끝 -->
+                </div>
+                <br>
+
+                <h3 class=" text-dark fw-bold mb-3"> 5. sam oak - Remember</h3>
+                <p class="lh-lg">플레이리스트 영상에서 알게 된 노래입니다. 조용한 노래입니다. 잠이 안 올 때 들으면 좋은 노래입니다.</p>
+
+                <div class="col-lg-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning px-3" data-bs-toggle="modal"
+                        data-bs-target="#newsModal4">Remember 음원 듣기
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="newsModal4" tabindex="-1" aria-labelledby="newsModalTitle"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content ">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="newsModalTitle">music</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="닫기"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FarwybZgL1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 끝 -->
+                </div>
+                <br>
+    
+            </div>
+        </div>
+        <hr>
+    
+    </section>
+
+    <!-- 풋터 시작 -->
+   <footer class="bg-dark text-white">
+    <div class="container text-center">
+        <p class="py-4 mb-0">2023년 6월 Hwang Han Ju</p>
+    </div>
+</footer>
+<!-- 풋터 끝 -->
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
